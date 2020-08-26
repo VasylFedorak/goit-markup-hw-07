@@ -2,10 +2,12 @@
 @import "./utils/variables";
 @import "./base/common";
 @import "./base/container";
-@import "./portfolio.scss";
+@import "./components/portfolio";
+@import "./components/logo";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/advantage-section";
 @import "./components/works-section";
 @import "./components/team-section";
+@import "./components/partners";
 @import "./components/footer";

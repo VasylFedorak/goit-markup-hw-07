@@ -1,0 +1,52 @@
+.advantage-item {
+  margin-top: 0px;
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.143;
+
+  text-transform: uppercase;
+
+  color: #212121;
+}
+
+.advantage .item {
+  width: calc((100% - 30px * 3) / 4);
+}
+
+.advantage .item::before {
+  display: block;
+  content: "";
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.first-advant::before {
+  background-image: url(../img/img-icons/antena1.svg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.second-advant::before {
+  background-image: url(../img/img-icons/cloсk.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third-advant::before {
+  background-image: url(../img/img-icons/diagram.1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.fours-advant::before {
+  background-image: url(../img/img-icons/astronaut1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.advantage-item {
+  margin-bottom: 10px;
+}
