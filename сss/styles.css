@@ -1,109 +1,10 @@
-:root {
-  --main-text-color: #757575;
-  --bgc: #ffffff;
-  --footer-bgc: #2f303a;
-  --hover-button-blue: #2196f3;
-}
 
-/*загальні*/
 
-body {
-  background-color: var(--bgc);
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
 
-  letter-spacing: 0.03em;
 
-  color: var(--main-text-color);
-}
 
-img {
-  display: block;
-}
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
 
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-
-  /*outline: 2px solid blue;*/
-}
-
-/*Потрібні падінги для контейнерів*/
-
-.container > nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.header-frame {
-  border-bottom: 1px solid #ececec;
-}
-
-.main-hero-img {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #c4c4c4;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../img/img-hero/hero-main.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.hero.container {
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.advantage .container,
-.team .container,
-.partners.container {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.works .container {
-  padding-bottom: 94px;
-}
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-  /*background-color: coral;*/
-}
-
-.list {
-  margin: 0px;
-  padding: 0px;
-  list-style: none;
-}
 
 .list.nav {
   margin-bottom: 56px;
@@ -144,16 +45,6 @@ img {
 }
 
 /*навігація header*/
-
-.link {
-  font-weight: 500;
-  line-height: 1.143;
-  letter-spacing: 0.02em;
-
-  text-decoration: none;
-
-  color: #212121;
-}
 
 .contacts {
   color: var(--main-text-color);
@@ -245,16 +136,6 @@ img {
 }
 
 /*головні заголовки секцій*/
-
-.section-title {
-  margin-top: 0px;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-
-  color: #212121;
-}
 
 /*перелік виконуваних робіт*/
 
@@ -362,47 +243,7 @@ img {
 
 /*назва проекту в портфоліо*/
 
-.portfolio-item {
-  margin: 20px 24px 4px;
-
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-
-.portfolio-item-title {
-  margin: 0px 24px 20px;
-
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.875;
-
-  color: var(--main-text-color);
-}
-
-.portfolio-item-text {
-  margin-bottom: 0px;
-
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.555;
-
-  color: #ffffff;
-}
-
-.portfolio .list.nav {
-  margin-bottom: 50px;
-}
-
 /*забираю підкреслення з ссилкок виконаних проектів на сторінці портфоліо*/
-
-.link-portfolio {
-  text-decoration: none;
-}
 
 .link.active.current {
   color: var(--hover-button-blue);
@@ -410,44 +251,13 @@ img {
 
 /*flex для основної навігації*/
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav {
-  display: flex;
-  margin-left: 85px;
-}
-
 /*марджіни між навігацією*/
-
-.site-nav > li + li {
-  margin-left: 50px;
-}
 
 /*розширюю область напискання на навігації*/
 
-.site-nav .link {
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.auth-nav {
-  display: flex;
-  margin-left: auto;
-}
-
-.auth-nav > li + li {
-  margin-left: 50px;
-}
-
 /*flex для потрібних секцій*/
 
-.container .list {
-  display: flex;
-}
+
 
 /*ширина комірок наших переваг*/
 

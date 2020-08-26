@@ -1,0 +1,36 @@
+.header-frame {
+  border-bottom: 1px solid #ececec;
+}
+
+.hero.container {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 85px;
+}
+.site-nav > li + li {
+  margin-left: 50px;
+}
+
+.site-nav .link {
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav > li + li {
+  margin-left: 50px;
+}

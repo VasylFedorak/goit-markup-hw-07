@@ -17,3 +17,14 @@
   padding-top: 24px;
   padding-bottom: 25px;
 }
+
+.container .list {
+  display: flex;
+}
+
+.advantage .container,
+.team .container,
+.partners.container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}

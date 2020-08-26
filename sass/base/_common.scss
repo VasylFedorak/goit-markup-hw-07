@@ -26,3 +26,29 @@ img {
   width: 1px !important;
   overflow: hidden;
 }
+
+.list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.link {
+  font-weight: 500;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: #212121;
+}
+
+.section-title {
+  margin-top: 0px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: #212121;
+}
