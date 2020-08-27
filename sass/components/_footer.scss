@@ -58,3 +58,12 @@
 .footer-media .social-icon {
   fill: $bgc;
 }
+
+.social-icon-link:hover,
+.social-icon-link:focus {
+  background-color: $hover-button-blue;
+}
+
+.social-icon-link:hover .social-icon {
+  fill: $bgc;
+}
