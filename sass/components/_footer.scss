@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--footer-bgc);
+  background-color: $footer-bgc;
 }
 .adress {
   font-style: normal;
@@ -10,7 +10,7 @@
   font-size: 14px;
   line-height: 1.714;
 
-  color: #ffffff;
+  color: $bgc;
 }
 
 .adress-contacts {
@@ -19,7 +19,7 @@
   font-size: 14px;
   line-height: 1.714;
 
-  color: rgba(255, 255, 255, 0.6);
+  color: $contacts-color;
 }
 
 .feedback {
@@ -29,7 +29,7 @@
 
   text-transform: uppercase;
 
-  color: #ffffff;
+  color: $bgc;
 
   margin-bottom: 20px;
 }
@@ -56,5 +56,5 @@
 }
 
 .footer-media .social-icon {
-  fill: var(--bgc);
+  fill: $bgc;
 }

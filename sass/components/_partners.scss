@@ -13,7 +13,7 @@
   justify-content: center;
   width: 170px;
   height: 90px;
-  background-color: var(--bgc);
+  background-color: $bgc;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
@@ -23,16 +23,15 @@
 
 .partners-icon-link:hover,
 .partners-icon-link:focus {
-  border-color: var(--hover-button-blue);
+  border-color: $hover-button-blue;
 }
 
 .partners-icon-link:hover .partners-icon,
 .partners-icon-link:focus .partners-icon {
-  fill: var(--hover-button-blue);
+  fill: $hover-button-blue;
 }
 
 .partners-icon {
   fill: #afb1b8;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-

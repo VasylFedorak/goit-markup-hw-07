@@ -7,14 +7,14 @@
 
   text-decoration: none;
 
-  color: var(--hover-button-blue);
+  color: $hover-button-blue;
 }
 .logo-black {
   color: #000000;
 }
 
 .logo-white {
-  color: #ffffff;
+  color: $bgc;
 }
 .logo.footer {
   display: inline-block;

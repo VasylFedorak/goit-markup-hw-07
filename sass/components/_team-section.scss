@@ -22,7 +22,7 @@
 
   text-align: center;
 
-  color: #212121;
+  color: $link-color;
 }
 
 .team .item {
@@ -59,7 +59,7 @@
   justify-content: center;
   width: 44px;
   height: 44px;
-  background-color: var(--bgc);
+  background-color: $bgc;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -67,7 +67,7 @@
 .member-item {
   display: block;
   height: 422px;
-  background: #ffffff;
+  background: $bgc;
   /* material shadow v1 */
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -82,13 +82,13 @@
 
 .social-icon-link:hover,
 .social-icon-link:focus {
-  background-color: var(--hover-button-blue);
+  background-color: $hover-button-blue;
 }
 
 .social-icon-link:hover .social-icon {
-  fill: var(--bgc);
+  fill: $bgc;
 }
 .social-icon-link:hover,
 .social-icon-link:focus {
-  background-color: var(--hover-button-blue);
+  background-color: $hover-button-blue;
 }
