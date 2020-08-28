@@ -255,26 +255,22 @@ summary {
   display: list-item;
 }
 
-/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto"), local("Roboto-Regular"), url("#") format("embedded-opentype"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff") format("woff"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.ttf") format("truetype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.svg") format("svg");
-  /* Legacy iOS */
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
-/* roboto-500 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto-v20-latin_cyrillic-500.eot?#iefix") format("embedded-opentype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff") format("woff"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.ttf") format("truetype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.svg") format("svg");
-  /* Legacy iOS */
+  src: local("Roboto Medium"), local("Roboto-Medium"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff") format("woff");
 }
 
 /* roboto-700 - latin_cyrillic */
@@ -284,8 +280,7 @@ summary {
   font-weight: 700;
   src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto Bold"), local("Roboto-Bold"), url("#") format("embedded-opentype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff") format("woff"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.ttf") format("truetype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.svg") format("svg");
-  /* Legacy iOS */
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
 /* roboto-900 - latin_cyrillic */
@@ -295,8 +290,7 @@ summary {
   font-weight: 900;
   src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.eot");
   /* IE9 Compat Modes */
-  src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/roboto-v20-latin_cyrillic-900.eot?#iefix") format("embedded-opentype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff") format("woff"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.ttf") format("truetype"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.ttf") format("svg");
-  /* Legacy iOS */
+  src: local("Roboto Black"), local("Roboto-Black"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff") format("woff");
 }
 
 body {
@@ -683,19 +677,18 @@ img {
   background-color: #2f303a;
 }
 
-.adress {
+.adress, .adress-contacts {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
+}
+
+.adress {
   color: #ffffff;
 }
 
 .adress-contacts {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -971,6 +964,42 @@ img {
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.comments, .comments::-webkit-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.comments, .comments:-ms-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.comments, .comments::-ms-input-placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
+.comments, .comments::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+}
+
 .comments {
   width: 448px;
   height: 120px;
@@ -980,54 +1009,24 @@ img {
   border-radius: 4px;
   padding: 12px 16px;
   resize: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: #757575;
   -webkit-transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .comments::-webkit-input-placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: #757575;
 }
 
 .comments:-ms-input-placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: #757575;
 }
 
 .comments::-ms-input-placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: #757575;
 }
 
 .comments::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
   color: #757575;
 }
 

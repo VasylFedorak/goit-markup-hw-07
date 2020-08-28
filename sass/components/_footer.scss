@@ -4,20 +4,22 @@
 
   background-color: $footer-bgc;
 }
-.adress {
+
+%adress-font {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
+}
+
+.adress {
+@extend %adress-font;
 
   color: $bgc;
 }
 
 .adress-contacts {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.714;
+@extend %adress-font;
 
   color: $contacts-color;
 }

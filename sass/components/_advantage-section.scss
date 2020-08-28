@@ -24,29 +24,27 @@
   }
 }
 
-.first-advant::before {
-  background-image: url(../img/img-icons/antena1.svg);
-
+%advant-before {
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.first-advant::before {
+  @extend %advant-before;
+  background-image: url(../img/img-icons/antena1.svg);
 }
 
 .second-advant::before {
+  @extend %advant-before;
   background-image: url(../img/img-icons/cloсk.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .third-advant::before {
+  @extend %advant-before;
   background-image: url(../img/img-icons/diagram.1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .fours-advant::before {
+  @extend %advant-before;
   background-image: url(../img/img-icons/astronaut1.svg);
-  background-repeat: no-repeat;
-  background-position: center;
 }
-/*.advantage-item {
-}*/
