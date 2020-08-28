@@ -8,15 +8,17 @@
   text-decoration: none;
 
   color: $hover-button-blue;
-}
-.logo-black {
-  color: #000000;
-}
 
-.logo-white {
-  color: $bgc;
-}
-.logo.footer {
-  display: inline-block;
-  margin-bottom: 20px;
+  &-black {
+    color: #000000;
+  }
+
+  &-white {
+    color: $bgc;
+  }
+
+  &.footer {
+    display: inline-block;
+    margin-bottom: 20px;
+  }
 }

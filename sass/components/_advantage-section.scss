@@ -1,5 +1,6 @@
 .advantage-item {
   margin-top: 0px;
+  margin-bottom: 10px;
 
   font-weight: bold;
   font-size: 14px;
@@ -12,15 +13,15 @@
 
 .advantage .item {
   width: calc((100% - 30px * 3) / 4);
-}
 
-.advantage .item::before {
-  display: block;
-  content: "";
-  height: 120px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  margin-bottom: 30px;
+  &::before {
+    display: block;
+    content: "";
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+  }
 }
 
 .first-advant::before {
@@ -47,6 +48,5 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.advantage-item {
-  margin-bottom: 10px;
-}
+/*.advantage-item {
+}*/

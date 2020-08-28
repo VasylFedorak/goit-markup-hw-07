@@ -8,18 +8,23 @@
   margin-top: 0px;
   margin-bottom: 0px;
 
+  & > nav {
+    padding-top: 24px;
+    padding-bottom: 25px;
+  }
+  .list {
+    display: flex;
+  }
+
+  .item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &.last-section {
+    display: flex;
+  }
+
   /*outline: 2px solid blue;*/
-}
-
-/*Потрібні падінги для контейнерів*/
-
-.container > nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.container .list {
-  display: flex;
 }
 
 .advantage .container,
@@ -27,7 +32,4 @@
 .partners.container {
   padding-top: 94px;
   padding-bottom: 94px;
-}
-.container .item:not(:last-child) {
-  margin-right: 30px;
 }

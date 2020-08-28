@@ -31,6 +31,10 @@ img {
   margin: 0px;
   padding: 0px;
   list-style: none;
+
+  &.nav {
+    justify-content: center;
+  }
 }
 
 .link {
@@ -41,6 +45,10 @@ img {
   text-decoration: none;
 
   color: $link-color;
+
+  &.active.current {
+    color: $hover-button-blue;
+  }
 }
 
 .section-title {
@@ -56,8 +64,3 @@ img {
 .item-text {
   margin-bottom: 0px;
 }
-
-.list.nav {
-  margin-bottom: 56px;
-}
-

@@ -10,9 +10,9 @@
   transition: opacity 2s ease-out;
 }
 
-.close {
+/*.close {
   position: relative;
-}
+}*/
 
 .modal {
   position: absolute;
@@ -55,10 +55,10 @@
   visibility: hidden;
   pointer-events: none;
   opacity: 0;
-}
 
-.backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(0.5);
+  .modal {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
 }
 
 .item-close {
@@ -93,20 +93,20 @@
   letter-spacing: 0.03em;
 
   color: $contacts-color;
-}
 
-.email::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
+  &::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
 
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
 
-  color: $contacts-color;
+    color: $contacts-color;
+  }
 }
 
 .form-flex {
@@ -133,10 +133,10 @@
 .form-field {
   display: flex;
   flex-direction: column;
-}
 
-.form-field:not(:last-child) {
-  margin-bottom: 10px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .modal-title {
@@ -184,17 +184,17 @@
   color: $main-text-color;
 
   transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.comments::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
+  &::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
 
-  color: $main-text-color;
+    color: $main-text-color;
+  }
 }
 
 .form-title {
@@ -242,14 +242,14 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.active-modal-btn:hover,
-.active-modal-btn:focus {
-  color: $hover-button-blue;
-  background-color: $bgc;
+  &:hover,
+  &:focus {
+    color: $hover-button-blue;
+    background-color: $bgc;
 
-  border: 1px solid $hover-button-blue;
+    border: 1px solid $hover-button-blue;
+  }
 }
 
 .btn-submit:disabled,
@@ -298,10 +298,6 @@
   margin-top: 25px;
 }
 
-.check-icon {
-  margin-right: 8px;
-}
-
 .policy-link {
   margin-left: 6px;
   color: $hover-button-blue;
@@ -316,6 +312,15 @@
   padding: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+
+  &:checked + .check-icon {
+    border-color: $hover-button-blue;
+    background-color: $hover-button-blue;
+    background-image: url(../img/img-icons/vectorcheck.svg);
+    background-size: contain;
+    background-origin: border-box;
+    /*background-repeat: no-repeat;*/
+  }
 }
 
 .check-icon {
@@ -326,13 +331,6 @@
   margin-left: 12px;
   border: 2px solid $link-color;
   border-radius: 3px;
-}
 
-.checkbox-input:checked + .check-icon {
-  border-color: $hover-button-blue;
-  background-color: $hover-button-blue;
-  background-image: url(../img/img-icons/vectorcheck.svg);
-  background-size: contain;
-  background-origin: border-box;
-  /*background-repeat: no-repeat;*/
+  margin-right: 8px;
 }

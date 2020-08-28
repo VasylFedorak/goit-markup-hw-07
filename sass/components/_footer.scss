@@ -34,10 +34,6 @@
   margin-bottom: 20px;
 }
 
-.container.last-section {
-  display: flex;
-}
-
 .adress-footer {
   display: inline-block;
   margin-bottom: 9px;
@@ -49,21 +45,21 @@
 
 .footer-media {
   margin-right: 93px;
-}
 
-.footer-media .social-icon-link {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+  .social-icon-link {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 
-.footer-media .social-icon {
-  fill: $bgc;
+  .social-icon {
+    fill: $bgc;
+  }
 }
 
 .social-icon-link:hover,
 .social-icon-link:focus {
   background-color: $hover-button-blue;
-}
 
-.social-icon-link:hover .social-icon {
-  fill: $bgc;
+  .social-icon {
+    fill: $bgc;
+  }
 }
