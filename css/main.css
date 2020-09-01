@@ -3,8 +3,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.eot");
-  /* IE9 Compat Modes */
+  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
   src: local("Roboto"), local("Roboto-Regular"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff") format("woff");
 }
 
@@ -12,8 +11,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.eot");
-  /* IE9 Compat Modes */
+  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.eot"); /* IE9 Compat Modes */
   src: local("Roboto Medium"), local("Roboto-Medium"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff") format("woff");
 }
 
@@ -22,8 +20,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.eot");
-  /* IE9 Compat Modes */
+  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.eot"); /* IE9 Compat Modes */
   src: local("Roboto Bold"), local("Roboto-Bold"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff") format("woff");
 }
 
@@ -32,8 +29,7 @@
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.eot");
-  /* IE9 Compat Modes */
+  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
   src: local("Roboto Black"), local("Roboto-Black"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff2") format("woff2"), url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff") format("woff");
 }
 
