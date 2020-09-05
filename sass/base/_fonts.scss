@@ -1,54 +1,48 @@
+/* roboto-regular - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.eot"); /* IE9 Compat Modes */
   src: local("Roboto"), local("Roboto-Regular"),
-    /* IE6-IE8 */
-      url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff2")
+    url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff2")
       format("woff2"),
-    /* Super Modern Browsers */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-regular.woff")
-      format("woff");
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/* roboto-500 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
-  /*src: url("#"); /* IE9 Compat Modes */
   src: local("Roboto Medium"), local("Roboto-Medium"),
-    /* IE6-IE8 */
-      url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff2")
+    url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff2")
       format("woff2"),
-    /* Super Modern Browsers */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-500.woff")
-      format("woff");
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-700 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  /* IE9 Compat Modes */
   src: local("Roboto Bold"), local("Roboto-Bold"),
-    /* IE6-IE8 */
-      url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff2")
+    url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff2")
       format("woff2"),
-    /* Super Modern Browsers */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-700.woff")
-      format("woff");
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* roboto-900 - latin_cyrillic */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
-  /*src: url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.eot"); /* IE9 Compat Modes */
   src: local("Roboto Black"), local("Roboto-Black"),
-    /* IE6-IE8 */
-      url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff2")
+    url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff2")
       format("woff2"),
-    /* Super Modern Browsers */
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../../css/fonts/roboto-v20-latin_cyrillic/roboto-v20-latin_cyrillic-900.woff")
-      format("woff");
+      format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
